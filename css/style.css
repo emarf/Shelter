@@ -8,12 +8,12 @@ body {
   color: #ffffff; }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex; }
 
 .wrapper {
-  background: url(../assets/background-header.jpg), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+  background: url(../assets/images/background-header.jpg), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
   background-repeat: no-repeat;
   background-size: cover;
   height: 908px; }
@@ -338,7 +338,7 @@ body {
   font-family: Georgia, serif;
   font-style: normal;
   font-weight: normal;
-  background: url(../assets/footer-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
+  background: url(../assets/images/footer-background.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%), #211f20;
   background-size: cover; }
   .section-footer .container {
     display: flex;
